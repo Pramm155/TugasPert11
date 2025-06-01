@@ -1,0 +1,133 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #2980b9;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.mahasiswa-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.mahasiswa-item p {
+    margin: 5px 0;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.actions a {
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.actions a:hover {
+    background-color: #e9ecef;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1, h2 {
+        font-size: 1.5em;
+    }
+}
